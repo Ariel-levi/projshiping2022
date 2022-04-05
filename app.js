@@ -2,7 +2,7 @@ const express = require("express");
 const path = require("path");
 const http = require("http");
 require("./db/mongoConnect");
-
+// test
 const {routesInit,corsAccessControl} = require("./routes/config_routes")
 
 const app = express();
